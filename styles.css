@@ -1,0 +1,90 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #badfe4;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.card-table {
+    border-collapse: collapse;
+}
+
+.card-table-head>.card-table-rows>th {
+    font-size: 20px;
+}
+
+.card-table,
+.card-table-items {
+    border: 1px solid #000;
+}
+
+.card-table-items {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-table-head {
+    background-color: rgb(191, 216, 215);
+}
+
+.pupil-name {
+    background-color: #e6ecec;
+}
+
+.card-table-body>.card-table-rows>th {
+    background-color: #eff5f5;
+}
+
+.card-table-body>.card-table-rows>td {
+    background-color: #fbffff;
+}
+
+.add-button {
+    padding: 0;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+    color: #0c2f36;
+    background-color: #d5eceb;
+    outline: 3px solid #0c2f36;
+    border: 0;
+    transition: all 0.1s;
+}
+
+.add-button:hover {
+    color: #d5eceb;
+    background-color: #0c2f36;
+    outline: 3px solid #d5eceb;
+}
+
+.table-cell-input {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    text-align: center;
+    width: 150px;
+    max-width: 500px;
+    transition: all 1s ease;
+    border: 0;
+    background-color: transparent;
+    height: 48px;
+    outline: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table-cell-input::placeholder {
+    font-weight: normal;
+}
